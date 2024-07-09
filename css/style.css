@@ -280,6 +280,7 @@ section{
 
 .menu .box-container .box img{
     height: 10rem;
+    border-radius: 50%;
 }
 
 
