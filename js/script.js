@@ -43,3 +43,10 @@ window.onclick = function(event) {
         document.getElementById('modal').style.display = 'none';
     }
 }
+
+const animatedText = document.querySelector('.animated-text');
+animatedText.style.width = 0;
+
+function startTyping() {
+  animatedText.style.width = '100%';
+}

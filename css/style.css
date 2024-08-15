@@ -710,3 +710,19 @@ section{
     background-color: #c0392b;
     transform: translateY(-5px);
 }
+
+.hero {
+    background-image: url('bg-coffee.jpg');
+    /* Gaya lainnya untuk background, warna, dll. */
+  }
+  
+  .animated-text {
+    /* Gaya untuk teks yang mengetik sendiri */
+    animation: typing 3s steps(40, end);
+  }
+  
+  .keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
